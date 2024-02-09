@@ -1,9 +1,10 @@
 import os
 from openai import OpenAI
 client = OpenAI(
-    api_key='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',
+    api_key='<YOUR_OPENAPI_KEY>',
 )
 
+# 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
 def update_list(message, pl):
     pl.append(message)
 
